@@ -32,9 +32,19 @@
             <i class="fa-solid fa-cart-shopping"></i>
             <span class="cartQuantity">0</span>
           </a>
-          <a href="auth/login.html">
+          <div class="loginWrapper">
+            <!-- Không có tài khoản -->
+            <!-- <a href="auth/login.html">
+              <i class="fa-solid fa-user" id="users"></i>
+            </a> -->
+            <!-- Có tài khoản -->
+            <p>diplamtuan@gmail.com</p>
             <i class="fa-solid fa-user" id="users"></i>
-          </a>
+            <ul>
+              <li>Thông tin cá nhân</li>
+              <li class="logout">Đăng xuất</li>
+            </ul>
+          </div>
           <div class="lines"></div>
           <i class="fa-solid fa-globe"></i>
         </div>
@@ -52,10 +62,24 @@
           <a href="#">Tất cả</a>
         </div>
 
-        <div id="products"></div>
+        <div id="products">
+          <div class="card">
+            <div class="image-container">
+              <img src="images/matrix-1999-1.jpg" />
+            </div>
+            <div class="container">
+              <h5 class="product-name">MAXTRIX 1999 DECK</h5>
+              <h6>
+                <b>Price: </b>
+                "1470000"
+              </h6>
+              <button>Thêm vào giỏ hàng</button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <script src="app.js"></script>
+    <!-- <script src="app.js"></script> -->
     <!-- <script src="index.js"></script> -->
   </body>
 </html>
